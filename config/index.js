@@ -7,7 +7,7 @@ module.exports ={
   MEMORIAL_DAY:'2018/02/13', //你和收信者的纪念日
   NAME:'zhyjor',//备注姓名
   NICKNAME:'zhyjor', //昵称
-  SENDDATE:'01 00 00 * * *',//定时发送时间 每天8点15分30秒发送，规则见 /schedule/index.js
+  SENDDATE:'01 50 00 * * *',//定时发送时间 每天8点15分30秒发送，规则见 /schedule/index.js
   ROOMNAME:'/^微信每日说/i', //群名(请只修改中文，不要删除符号，这是正则)
   ADDFRIENDWORD:'/微信每日说/i',//自动加好友触发的关键词(请只修改中文，不要删除符号，这是正则)
   ADDROOMWORD:'/加群/',//自动发送群图片触发关键词(请只修改中文，不要删除符号，这是正则)
